@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{ED5ABEC3-1307-47F4-BE3A-032CA7DB5FD2}|Default">
+  <MonoDevelop.Ide.ItemProperties.examen PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="examen/Ships/Fragata.cs">
+    <Files>
+      <File FileName="examen/Program.cs" Line="10" Column="13" />
+      <File FileName="examen/Board.cs" Line="10" Column="10" />
+      <File FileName="examen/Ship.cs" Line="9" Column="10" />
+      <File FileName="examen/Ships/Bombardero.cs" Line="13" Column="1" />
+      <File FileName="examen/Ships/Radar.cs" Line="1" Column="1" />
+      <File FileName="examen/Ships/Reparador.cs" Line="1" Column="1" />
+      <File FileName="examen/Ships/Submarino.cs" Line="1" Column="1" />
+      <File FileName="examen/Ships/Fragata.cs" Line="7" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="examen" expanded="True">
+            <Node name="examen" expanded="True">
+              <Node name="Ships" expanded="True">
+                <Node name="Submarino.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

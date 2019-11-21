@@ -1,0 +1,4 @@
+/Users/rai/Desktop/examen-RaimundoDiaz/examen/examen/bin/Debug/examen.exe
+/Users/rai/Desktop/examen-RaimundoDiaz/examen/examen/bin/Debug/examen.pdb
+/Users/rai/Desktop/examen-RaimundoDiaz/examen/examen/obj/Debug/examen.exe
+/Users/rai/Desktop/examen-RaimundoDiaz/examen/examen/obj/Debug/examen.pdb

@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "examen", "examen\examen.csproj", "{ED5ABEC3-1307-47F4-BE3A-032CA7DB5FD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED5ABEC3-1307-47F4-BE3A-032CA7DB5FD2}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{ED5ABEC3-1307-47F4-BE3A-032CA7DB5FD2}.Debug|anycpu.Build.0 = Debug|anycpu
+		{ED5ABEC3-1307-47F4-BE3A-032CA7DB5FD2}.Release|anycpu.ActiveCfg = Release|anycpu
+		{ED5ABEC3-1307-47F4-BE3A-032CA7DB5FD2}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
