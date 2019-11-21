@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace examen.Ships
 {
     public class Reparador : Ship
@@ -47,42 +49,51 @@ namespace examen.Ships
 
         public static void Special(Board board, int xCoordinate, int yCoordinate) // x&y are the center of the 3x3 sector
         {
+            List<int> ships = new List<int>();
             if (board.matrix[xCoordinate - 1][yCoordinate - 1] != 0 && board.matrix[xCoordinate - 1][yCoordinate - 1] != 6)
             {
-
+                ships.Add(board.matrix[xCoordinate - 1][yCoordinate - 1]);
             }
             else if (board.matrix[xCoordinate - 1][yCoordinate] != 0 && board.matrix[xCoordinate - 1][yCoordinate - 1] != 6)
             {
-
+                ships.Add(board.matrix[xCoordinate - 1][yCoordinate]);
             }
             else if (board.matrix[xCoordinate - 1][yCoordinate + 1] != 0 && board.matrix[xCoordinate - 1][yCoordinate - 1] != 6)
             {
-
+                ships.Add(board.matrix[xCoordinate - 1][yCoordinate + 1]);
             }
             else if (board.matrix[xCoordinate][yCoordinate - 1] != 0 && board.matrix[xCoordinate - 1][yCoordinate - 1] != 6)
             {
-
+                ships.Add(board.matrix[xCoordinate][yCoordinate - 1]);
             }
             else if (board.matrix[xCoordinate][yCoordinate] != 0 && board.matrix[xCoordinate - 1][yCoordinate - 1] != 6)
             {
-
+                ships.Add(board.matrix[xCoordinate][yCoordinate]);
             }
             else if (board.matrix[xCoordinate][yCoordinate + 1] != 0 && board.matrix[xCoordinate - 1][yCoordinate - 1] != 6)
             {
-
+                ships.Add(board.matrix[xCoordinate][yCoordinate + 1]);
             }
             else if (board.matrix[xCoordinate + 1][yCoordinate - 1] != 0 && board.matrix[xCoordinate - 1][yCoordinate - 1] != 6)
             {
-
+                ships.Add(board.matrix[xCoordinate + 1][yCoordinate - 1]);
             }
             else if (board.matrix[xCoordinate + 1][yCoordinate] != 0 && board.matrix[xCoordinate - 1][yCoordinate - 1] != 6)
             {
-
+                ships.Add(board.matrix[xCoordinate + 1][yCoordinate]);
             }
             else if (board.matrix[xCoordinate + 1][yCoordinate + 1] != 0 && board.matrix[xCoordinate - 1][yCoordinate - 1] != 6)
             {
+                ships.Add(board.matrix[xCoordinate + 1][yCoordinate + 1]);
+            }
 
+            if (ships.Count != 0)
+            {
+                // no alcance a agregar que sume una vida al barco
+            }
+            else
+            {
+                Console.WriteLine("No ships nearby");
             }
         }
-    }
 }
